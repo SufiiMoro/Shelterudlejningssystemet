@@ -3,7 +3,7 @@ namespace Shelterudlejningssystemet;
 public class Blogindlæg
 {
     private int _indlægId;
-    private string _title = "";
+    private string _titel = "";
     private string _tekst = "";
     private DateTime _dato;
 
@@ -13,10 +13,10 @@ public class Blogindlæg
         set => _indlægId = value;
     }
 
-    public string Title
+    public string Titel
     {
-        get => _title;
-        set => _title = value;
+        get => _titel;
+        set => _titel = value;
     }
 
     public string Tekst

@@ -4,7 +4,7 @@ public class Shelter
 {
     private int _shelterId;
     private string _navn = "";
-    private int _lokation;
+    private string _lokation = "";
     private int _kapacitet;
 
     // Properties
@@ -20,7 +20,7 @@ public class Shelter
         set => _navn = value;
     }
 
-    public int Lokation
+    public string Lokation
     {
         get => _lokation;
         set => _lokation = value;
