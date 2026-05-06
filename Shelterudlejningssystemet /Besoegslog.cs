@@ -1,6 +1,6 @@
 namespace Shelterudlejningssystemet;
 
-public class Besøgslog
+public class Besoegslog
 {
     private int _logId;
     private DateTime _startDato;

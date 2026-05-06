@@ -1,6 +1,6 @@
 namespace Shelterudlejningssystemet;
 
-public class Blogindlæg
+public class Blogindlaeg
 {
     private int _indlægId;
     private string _titel = "";
